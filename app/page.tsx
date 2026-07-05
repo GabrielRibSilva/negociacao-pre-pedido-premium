@@ -1,4 +1,5 @@
 import type { ElementType } from "react";
+import EscolheComoVender from "@/components/EscolheComoVender";
 import {
   ArrowRight,
   BadgeDollarSign,
@@ -513,7 +514,7 @@ export default function Page() {
         <Experience />
         <InfiniteCarousel />
         <RealTimeValue />
-        <VisualChoice />
+        <EscolheComoVender />
         <Demo />
       </main>
 
