@@ -222,22 +222,31 @@ function Benefit({
 
 function ArrowLeft() {
   return (
-    <div className="pointer-events-none absolute left-[24%] top-[130px] z-20 hidden -rotate-6 lg:block">
-      <svg width="150" height="100" viewBox="0 0 150 100" fill="none">
+    <div className="pointer-events-none absolute left-[28%] top-[185px] z-20 hidden lg:block">
+      <svg
+        width="170"
+        height="120"
+        viewBox="0 0 170 120"
+        fill="none"
+      >
         <defs>
-          <linearGradient id="arrow1" x1="0" y1="100" x2="150" y2="0">
-            <stop stopColor="#9EC5FF" />
-            <stop offset="0.55" stopColor="#2871FF" />
-            <stop offset="1" stopColor="#0A4BDB" />
+          <linearGradient id="leftGradient" x1="0" y1="120" x2="170" y2="0">
+            <stop offset="0%" stopColor="#9CC4FF" />
+            <stop offset="100%" stopColor="#2463F3" />
           </linearGradient>
         </defs>
+
         <path
-          d="M18 104 C45 42 100 18 150 38"
-          stroke="url(#arrow1)"
-          strokeWidth="22"
+          d="M18 95 C55 35 105 25 142 42"
+          stroke="url(#leftGradient)"
+          strokeWidth="18"
           strokeLinecap="round"
         />
-        <path d="M143 8 L181 52 L121 61 Z" fill="url(#arrow1)" />
+
+        <path
+          d="M132 15 L165 45 L122 53 Z"
+          fill="url(#leftGradient)"
+        />
       </svg>
     </div>
   );
@@ -245,22 +254,31 @@ function ArrowLeft() {
 
 function ArrowRight() {
   return (
-    <div className="pointer-events-none absolute right-[24%] top-[170px] z-20 hidden rotate-6 lg:block">
-      <svg width="150" height="100" viewBox="0 0 150 100" fill="none">
+    <div className="pointer-events-none absolute right-[28%] top-[205px] z-20 hidden lg:block">
+      <svg
+        width="170"
+        height="120"
+        viewBox="0 0 170 120"
+        fill="none"
+      >
         <defs>
-          <linearGradient id="arrow2" x1="0" y1="0" x2="150" y2="100">
-            <stop stopColor="#A8CEFF" />
-            <stop offset="0.55" stopColor="#2871FF" />
-            <stop offset="1" stopColor="#0A4BDB" />
+          <linearGradient id="rightGradient" x1="0" y1="0" x2="170" y2="120">
+            <stop offset="0%" stopColor="#A8CEFF" />
+            <stop offset="100%" stopColor="#2463F3" />
           </linearGradient>
         </defs>
+
         <path
-          d="M18 30 C74 15 132 42 160 92"
-          stroke="url(#arrow2)"
-          strokeWidth="22"
+          d="M20 38 C70 20 120 42 148 92"
+          stroke="url(#rightGradient)"
+          strokeWidth="18"
           strokeLinecap="round"
         />
-        <path d="M130 92 L184 112 L151 64 Z" fill="url(#arrow2)" />
+
+        <path
+          d="M118 90 L168 108 L142 63 Z"
+          fill="url(#rightGradient)"
+        />
       </svg>
     </div>
   );
