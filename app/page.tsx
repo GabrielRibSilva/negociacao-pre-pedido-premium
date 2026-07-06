@@ -528,12 +528,15 @@ export default function Page() {
         <InfiniteCarousel />
         <RealTimeValue />
         {/* <EscolheComoVender /> */}
-        <section className="bg-white py-12">
-          <div className="mx-auto max-w-5xl px-6">            <img
-            src="https://www.dropbox.com/scl/fi/kpgdc9yugh8b0atlm8fp0/fluxo-modo-negociacao-imagem-3-em-1-atualizada-sem-fundo.png?rlkey=gdluvsjwtpisbxmcnzv21kd06&st=fvdvfxhs&raw=1"
-            alt="Fluxo Negociação"
-            className="w-full h-auto rounded-2xl"
-          />
+        <section className="relative overflow-hidden bg-transparent py-12">
+          <div className="absolute left-1/2 top-1/2 -z-10 h-[520px] w-[1100px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/10 blur-[120px]" />
+
+          <div className="mx-auto max-w-5xl px-6">
+            <img
+              src="https://www.dropbox.com/scl/fi/kpgdc9yugh8b0atlm8fp0/fluxo-modo-negociacao-imagem-3-em-1-atualizada-sem-fundo.png?rlkey=gdluvsjwtpisbxmcnzv21kd06&raw=1"
+              alt="Fluxo Negociação"
+              className="mx-auto h-auto w-full"
+            />
           </div>
         </section>
         <Demo />
