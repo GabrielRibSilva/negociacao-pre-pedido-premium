@@ -131,7 +131,7 @@ export default function EscolheComoVender() {
           </article>
         </div>
 
-        <div className="mx-auto mt-8 grid max-w-6xl gap-6 pt-2 md:grid-cols-3">
+        <div className="mx-auto mt-6 grid max-w-6xl gap-6 pt-2 md:grid-cols-3">
           <Benefit
             icon={<Zap size={34} />}
             title="Mais agilidade"

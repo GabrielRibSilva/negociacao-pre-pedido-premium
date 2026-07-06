@@ -19,8 +19,8 @@ export function MediaBlock({ type, title, description, note, dark = false, large
         <div className={`${dark ? "bg-white/10 text-white" : "bg-blue-600/10 text-blue-600"} mb-6 flex h-20 w-20 items-center justify-center rounded-3xl transition duration-300 group-hover:scale-105`}>
           <Icon size={42} strokeWidth={1.6} />
         </div>
-        <h3 className={`${dark ? "text-white" : "text-slate-950"} max-w-2xl text-2xl font-black tracking-tight`}>{title}</h3>
-        <p className={`${dark ? "text-slate-300" : "text-slate-500"} mt-4 max-w-2xl text-sm leading-7`}>{description}</p>
+        <h3 className={`${dark ? "text-white" : "text-slate-950"} max-w-5xl text-2xl font-black tracking-tight`}>{title}</h3>
+        <p className={`${dark ? "text-slate-300" : "text-slate-500"} mt-4 max-w-5xl text-sm leading-7`}>{description}</p>
         {note && <span className={`${dark ? "bg-white/10 text-blue-100" : "bg-white text-slate-500"} mt-6 rounded-full px-5 py-2 text-xs font-bold shadow-sm`}>{note}</span>}
       </div>
     </div>

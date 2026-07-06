@@ -97,7 +97,7 @@ function Hero() {
             Uma nova forma de apresentar, negociar e agregar valor dentro do MobiGestor.
           </p>
 
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-500">
+          <p className="mt-4 max-w-5xl text-lg leading-8 text-slate-500">
             O Módulo Negociação torna a venda mais moderna, dinâmica e visual, aproximando vendedor e cliente durante a construção da proposta.
           </p>
 
@@ -120,7 +120,7 @@ function Hero() {
         </div>
 
         <div>
-          <div className="mx-auto w-full max-w-3xl">
+          <div className="mx-auto w-full max-w-6xl">
             <VimeoVideo
               id="1207217456"
               title="Demonstração comercial do Módulo Negociação"
@@ -149,23 +149,23 @@ function Hero() {
 function Experience() {
   return (
     <section id="experiencia" className="bg-slate-50 py-12">
-      <div className="mx-auto max-w-6xl px-6 text-center">
+      <div className="mx-auto max-w-7xl px-8 text-center">
         <p className="text-xs font-bold uppercase tracking-[0.24em] text-blue-600">
           A nova experiência
         </p>
 
-        <h2 className="mx-auto mt-3 max-w-3xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl">
+        <h2 className="mx-auto mt-3 max-w-6xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl lg:text-6xl">
           Uma tela feita para encantar.
         </h2>
 
-        <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-500 md:text-lg">
+        <p className="mx-auto mt-5 max-w-5xl text-lg leading-8 text-slate-500">
           Mais do que registrar informações, o Módulo Negociação transforma a
           apresentação da venda. O cliente visualiza o veículo, acompanha
           acessórios, personalizações e serviços, e entende melhor cada escolha
           durante a negociação.
         </p>
 
-        <div className="mx-auto mt-8 max-w-5xl overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-xl shadow-slate-950/10">
+        <div className="mx-auto mt-6 max-w-5xl overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-xl shadow-slate-950/10">
           <img
             src="https://www.dropbox.com/scl/fi/owtnxa4glajonj3yich1y/imagem-NEGOCIA-O-MOBATO-2.png?rlkey=5spjm39vw0tqglayl3mqn7d49&st=5y85zdsa&raw=1"
             alt="Tela completa do Módulo Negociação"
@@ -204,7 +204,7 @@ function InfiniteCarousel() {
           Cada interação cria uma nova oportunidade.
         </h2>
 
-        <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-500">
+        <p className="mx-auto mt-5 max-w-6xl text-lg leading-8 text-slate-500">
           O vendedor apresenta possibilidades no momento em que elas fazem sentido. A conversa deixa de ser apenas preenchimento e passa a mostrar o que melhora a experiência do cliente na compra.
         </p>
       </div>
@@ -251,7 +251,7 @@ function RealTimeValue() {
           Cada item adicionado aparece imediatamente no resumo da negociação. O cliente acompanha o veículo, os acessórios, os serviços, a entrada e o valor restante com mais clareza para tomar decisão.
         </p>
 
-        <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
           {[
             "Resumo financeiro sempre visível",
             "Itens escolhidos organizados em tempo real",
@@ -269,7 +269,7 @@ function RealTimeValue() {
         </div>
       </div>
 
-      <div className="mx-auto w-full max-w-3xl">
+      <div className="mx-auto w-full max-w-6xl">
         <VimeoVideo id="1207215534" title="Valores atualizando em tempo real" />
       </div>      </div>
   </section>
@@ -459,22 +459,22 @@ function OrderMockup() {
 function Demo() {
   return (
     <section id="demo" className="bg-slate-50 py-12">
-      <div className="mx-auto max-w-6xl px-6 text-center">
+      <div className="mx-auto max-w-7xl px-8 text-center">
         <p className="text-xs font-bold uppercase tracking-[0.24em] text-blue-600">
           Veja na prática
         </p>
 
-        <h2 className="mx-auto mt-3 max-w-3xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl">
+        <h2 className="mx-auto mt-3 max-w-6xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl lg:text-6xl">
           A melhor forma de entender é ver acontecendo.
         </h2>
 
-        <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-500 md:text-lg">
+        <p className="mx-auto mt-5 max-w-5xl text-lg leading-8 text-slate-500">
           A demonstração deve mostrar a realidade da plataforma: abrir o Lead,
           acessar Negociação, apresentar o veículo, adicionar itens, acompanhar
           o resumo e avançar para o Pedido.
         </p>
 
-        <div className="mx-auto mt-8 max-w-5xl">
+        <div className="mx-auto mt-6 max-w-5xl">
           <VimeoVideo
             id="1207217456"
             title="Demonstração completa da plataforma"
@@ -497,7 +497,7 @@ function Footer() {
           A evolução da experiência do cliente começa aqui.
         </h2>
 
-        <p className="mx-auto mt-7 max-w-3xl text-lg leading-8 text-blue-100">
+        <p className="mx-auto mt-7 max-w-6xl text-lg leading-8 text-blue-100">
           Mais interação. Mais transparência. Mais oportunidades para agregar valor em cada atendimento.
         </p>
 
