@@ -530,7 +530,7 @@ export default function Page() {
         {/* <EscolheComoVender /> */}
         <section className="bg-white py-12">
           <div className="mx-auto max-w-5xl px-6">            <img
-            src="https://www.dropbox.com/scl/fi/kpgdc9yugh8b0atlm8fp0/fluxo-modo-negociacao-imagem-3-em-1-atualizada-sem-fundo.png?rlkey=gdluvsjwtpisbxmcnzv21kd06&st=zubqnure&dl=0"
+            src="https://www.dropbox.com/scl/fi/kpgdc9yugh8b0atlm8fp0/fluxo-modo-negociacao-imagem-3-em-1-atualizada-sem-fundo.png?rlkey=gdluvsjwtpisbxmcnzv21kd06&st=fvdvfxhs&dl=0"
             alt="Fluxo Negociação"
             className="w-full h-auto rounded-2xl"
           />
