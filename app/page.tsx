@@ -165,7 +165,7 @@ function Experience() {
 
         <div className="mx-auto mt-6 w-[92%] max-w-6xl overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-xl shadow-slate-950/10">
           <img
-            src="https://www.dropbox.com/scl/fi/owtnxa4glajonj3yich1y/imagem-NEGOCIA-O-MOBATO-2.png?rlkey=5spjm39vw0tqglayl3mqn7d49&st=5y85zdsa&raw=1"
+            src="https://www.dropbox.com/scl/fi/e0leuk6ows870xflwp3ht/imagem-negociacao-estilo-mobado-fundo-branco.png?rlkey=d1t9rw53dxn7gfr75yf3eo1iz&st=ihj4jjvj&raw=1"
             alt="Tela completa do Módulo Negociação"
             className="w-full"
           />
