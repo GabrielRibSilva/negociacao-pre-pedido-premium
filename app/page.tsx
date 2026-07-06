@@ -149,7 +149,7 @@ function Hero() {
 function Experience() {
   return (
     <section id="experiencia" className="bg-slate-50 py-10">
-      <div className="mx-auto max-w-7xl px-6 text-center">
+      <div className="mx-auto max-w-6xl px-6 text-center">
         <p className="text-xs font-bold uppercase tracking-[0.24em] text-blue-600">
           A nova experiência
         </p>
@@ -457,12 +457,12 @@ function OrderMockup() {
 function Demo() {
   return (
     <section id="demo" className="bg-slate-50 py-12">
-      <div className="mx-auto max-w-5xl px-6 text-center">
+      <div className="mx-auto max-w-6xl px-6 text-center">
         <p className="text-xs font-bold uppercase tracking-[0.24em] text-blue-600">
           Veja na prática
         </p>
 
-        <h2 className="mx-auto mt-3 max-w-8xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl lg:text-6xl">
+        <h2 className="mx-auto mt-3 max-w-6xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl lg:text-6xl">
           A melhor forma de entender é ver acontecendo.
         </h2>
 
