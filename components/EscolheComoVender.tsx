@@ -21,7 +21,7 @@ export default function EscolheComoVender() {
       <div className="pointer-events-none absolute bottom-8 left-0 h-28 w-64 opacity-30 [background-image:radial-gradient(#77a7ff_1.4px,transparent_1.4px)] [background-size:13px_13px]" />
       <div className="pointer-events-none absolute bottom-8 right-0 h-28 w-64 opacity-30 [background-image:radial-gradient(#77a7ff_1.4px,transparent_1.4px)] [background-size:13px_13px]" />
 
-      <div className="mx-auto max-w-[1600px]">
+      <div className="mx-auto max-w-[1450px]">
         <div className="mb-10 text-center">
           <h2 className="text-4xl font-black uppercase leading-[0.95] tracking-[-0.04em] text-[#04113A] md:text-6xl lg:text-7xl">
             Você escolhe como vender.
@@ -34,7 +34,7 @@ export default function EscolheComoVender() {
           </p>
         </div>
 
-        <div className="relative grid items-end gap-8 lg:grid-cols-[1fr_1.38fr_1fr]">
+        <div className="relative grid items-end gap-5 lg:grid-cols-[0.92fr_1.12fr_0.92fr]">
           <ArrowLeft />
           <ArrowRight />
 
@@ -42,13 +42,13 @@ export default function EscolheComoVender() {
             <div className="mb-5 lg:pl-16">
               <div className="mb-2 flex items-center gap-4">
                 <CircleIcon>
-                  <UserRound size={36} />
+                  <UserRound size={28} />
                 </CircleIcon>
 
                 <Badge>Caminho 1</Badge>
               </div>
 
-              <h3 className="text-2xl font-black uppercase tracking-[-0.03em] text-[#04113A] md:text-3xl">
+              <h3 className="text-2xl font-black uppercase tracking-[-0.03em] text-[#04113A] md:text-2xl">
                 Fluxo tradicional
               </h3>
 
@@ -61,8 +61,8 @@ export default function EscolheComoVender() {
               <Image
                 src={images.tradicional}
                 alt="Fluxo Tradicional"
-                width={900}
-                height={650}
+                width={760}
+                height={540}
                 className="h-auto w-full object-cover"
                 unoptimized
                 priority
@@ -83,12 +83,12 @@ export default function EscolheComoVender() {
               </p>
             </div>
 
-            <div className="overflow-hidden rounded-[28px] border-[5px] border-[#1D62F3] bg-white shadow-[0_30px_70px_rgba(15,23,42,0.18),0_0_0_8px_rgba(29,98,243,0.08)]">
+            <div className="overflow-hidden rounded-[22px] border-[3px] border-[#1D62F3] bg-white shadow-[0_30px_70px_rgba(15,23,42,0.18),0_0_0_8px_rgba(29,98,243,0.08)]">
               <Image
                 src={images.negociacao}
                 alt="Negociação Mobi"
-                width={1300}
-                height={850}
+                width={1080}
+                height={700}
                 className="h-auto w-full object-cover"
                 unoptimized
                 priority
@@ -121,8 +121,8 @@ export default function EscolheComoVender() {
               <Image
                 src={images.pedido}
                 alt="Pedido de Venda"
-                width={900}
-                height={650}
+                width={760}
+                height={540}
                 className="h-auto w-full object-cover"
                 unoptimized
                 priority
@@ -131,7 +131,7 @@ export default function EscolheComoVender() {
           </article>
         </div>
 
-        <div className="mx-auto mt-12 grid max-w-6xl gap-6 pt-2 md:grid-cols-3">
+        <div className="mx-auto mt-8 grid max-w-6xl gap-6 pt-2 md:grid-cols-3">
           <Benefit
             icon={<Zap size={34} />}
             title="Mais agilidade"
@@ -166,7 +166,7 @@ function ScreenCard({
 }) {
   return (
     <div
-      className={`overflow-hidden rounded-[26px] border-2 border-[#6EA3FF] bg-white shadow-[0_24px_60px_rgba(15,23,42,0.12)] ${className}`}
+      className={`overflow-hidden rounded-[20px] border-2 border-[#6EA3FF] bg-white shadow-[0_24px_60px_rgba(15,23,42,0.12)] ${className}`}
     >
       {children}
     </div>
@@ -175,7 +175,7 @@ function ScreenCard({
 
 function CircleIcon({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex h-[72px] w-[72px] items-center justify-center rounded-full border-2 border-blue-100 bg-white text-[#1457F5] shadow-[0_10px_30px_rgba(20,87,245,0.15)]">
+    <div className="flex h-[14px] w-[14px] items-center justify-center rounded-full border-2 border-blue-100 bg-white text-[#1457F5] shadow-[0_10px_30px_rgba(20,87,245,0.15)]">
       {children}
     </div>
   );
@@ -223,9 +223,9 @@ function Benefit({
 function ArrowLeft() {
   return (
     <div className="pointer-events-none absolute left-[24%] top-[130px] z-20 hidden -rotate-6 lg:block">
-      <svg width="190" height="125" viewBox="0 0 190 125" fill="none">
+      <svg width="150" height="100" viewBox="0 0 150 100" fill="none">
         <defs>
-          <linearGradient id="arrow1" x1="0" y1="125" x2="190" y2="0">
+          <linearGradient id="arrow1" x1="0" y1="100" x2="150" y2="0">
             <stop stopColor="#9EC5FF" />
             <stop offset="0.55" stopColor="#2871FF" />
             <stop offset="1" stopColor="#0A4BDB" />
@@ -246,9 +246,9 @@ function ArrowLeft() {
 function ArrowRight() {
   return (
     <div className="pointer-events-none absolute right-[24%] top-[170px] z-20 hidden rotate-6 lg:block">
-      <svg width="190" height="125" viewBox="0 0 190 125" fill="none">
+      <svg width="150" height="100" viewBox="0 0 150 100" fill="none">
         <defs>
-          <linearGradient id="arrow2" x1="0" y1="0" x2="190" y2="125">
+          <linearGradient id="arrow2" x1="0" y1="0" x2="150" y2="100">
             <stop stopColor="#A8CEFF" />
             <stop offset="0.55" stopColor="#2871FF" />
             <stop offset="1" stopColor="#0A4BDB" />
