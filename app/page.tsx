@@ -163,7 +163,7 @@ function Experience() {
           O cliente visualiza o veículo, acompanha acessórios, personalizações e serviços, e entende melhor cada escolha durante a negociação.
         </p>
 
-        <div className="mx-auto mt-6 w-[88%] max-w-6xl overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-xl shadow-slate-950/10">
+        <div className="mx-auto mt-6 w-[88%] max-w-5xl overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-xl shadow-slate-950/10">
           <img
             src="https://www.dropbox.com/scl/fi/e0leuk6ows870xflwp3ht/imagem-negociacao-estilo-mobado-fundo-branco.png?rlkey=d1t9rw53dxn7gfr75yf3eo1iz&st=ihj4jjvj&raw=1"
             alt="Tela completa do Módulo Negociação"
