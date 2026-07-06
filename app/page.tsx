@@ -87,7 +87,7 @@ function Hero() {
           </span>
 
           <h1 className="text-5xl font-black tracking-tight text-slate-950 md:text-6xl">
-            O carro vai para a mesa.
+            NEGOCIAÇÃO NO MOBI.
             <span className="block text-blue-600">
               A experiência do cliente evolui.
             </span>
@@ -163,7 +163,7 @@ function Experience() {
           O cliente visualiza o veículo, acompanha acessórios, personalizações e serviços, e entende melhor cada escolha durante a negociação.
         </p>
 
-        <div className="mx-auto mt-6 w-[88%] max-w-5xl overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-xl shadow-slate-950/10">
+        <div className="mx-auto mt-6 w-[86%] max-w-5xl overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-xl shadow-slate-950/10">
           <img
             src="https://www.dropbox.com/scl/fi/e0leuk6ows870xflwp3ht/imagem-negociacao-estilo-mobado-fundo-branco.png?rlkey=d1t9rw53dxn7gfr75yf3eo1iz&st=ihj4jjvj&raw=1"
             alt="Tela completa do Módulo Negociação"
@@ -457,12 +457,12 @@ function OrderMockup() {
 function Demo() {
   return (
     <section id="demo" className="bg-slate-50 py-12">
-      <div className="mx-auto max-w-7xl px-8 text-center">
+      <div className="mx-auto max-w-5xl px-6 text-center">
         <p className="text-xs font-bold uppercase tracking-[0.24em] text-blue-600">
           Veja na prática
         </p>
 
-        <h2 className="mx-auto mt-3 max-w-6xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl lg:text-6xl">
+        <h2 className="mx-auto mt-3 max-w-8xl text-3xl font-black tracking-tight text-slate-950 md:text-5xl lg:text-6xl">
           A melhor forma de entender é ver acontecendo.
         </h2>
 
