@@ -529,14 +529,21 @@ export default function Page() {
         <RealTimeValue />
         {/* <EscolheComoVender /> */}
         <section className="relative overflow-hidden bg-transparent py-12">
-          <div className="absolute left-1/2 top-1/2 -z-10 h-[520px] w-[1100px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/10 blur-[120px]" />
+          <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,rgba(37,99,235,0.12),transparent_55%)]" />
 
           <div className="mx-auto max-w-5xl px-6">
-            <img
-              src="https://www.dropbox.com/scl/fi/kpgdc9yugh8b0atlm8fp0/fluxo-modo-negociacao-imagem-3-em-1-atualizada-sem-fundo.png?rlkey=gdluvsjwtpisbxmcnzv21kd06&raw=1"
-              alt="Fluxo Negociação"
-              className="mx-auto h-auto w-full"
-            />
+            <div className="relative overflow-hidden rounded-[2rem] bg-[linear-gradient(180deg,#ffffff_0%,#f6faff_55%,#eef5ff_100%)] shadow-2xl shadow-blue-950/10">
+              <img
+                src="https://www.dropbox.com/scl/fi/kpgdc9yugh8b0atlm8fp0/fluxo-modo-negociacao-imagem-3-em-1-atualizada-sem-fundo.png?rlkey=gdluvsjwtpisbxmcnzv21kd06&raw=1"
+                alt="Fluxo Negociação"
+                className="mx-auto h-auto w-full"
+              />
+
+              <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-white/90 to-transparent" />
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#eef5ff] to-transparent" />
+              <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white/80 to-transparent" />
+              <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-[#f6faff]/80 to-transparent" />
+            </div>
           </div>
         </section>
         <Demo />
