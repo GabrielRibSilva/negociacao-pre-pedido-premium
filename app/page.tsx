@@ -1,5 +1,5 @@
 import type { ElementType } from "react";
-import EscolheComoVender from "@/components/EscolheComoVender";
+// import EscolheComoVender from "@/components/EscolheComoVender";
 import {
   ArrowRight,
   BadgeDollarSign,
@@ -527,7 +527,16 @@ export default function Page() {
         <Experience />
         <InfiniteCarousel />
         <RealTimeValue />
-        <EscolheComoVender />
+        {/* <EscolheComoVender /> */}
+        <section className="bg-white py-12">
+          <div className="mx-auto max-w-[1800px] px-6">
+            <img
+              src="https://www.dropbox.com/scl/fi/6ghikaypvtk139dyqo2g5/fluxo-Modo-negociacao-imagem-3-em-1.png?rlkey=btfjy3h63lj9hwsszolvx2tp6&raw=1"
+              alt="Fluxo Negociação"
+              className="w-full h-auto rounded-2xl"
+            />
+          </div>
+        </section>
         <Demo />
       </main>
 
