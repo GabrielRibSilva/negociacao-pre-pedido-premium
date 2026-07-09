@@ -531,7 +531,7 @@ export default function Page() {
 
           <div className="mx-auto max-w-5xl px-6">
             <img
-              src="https://www.dropbox.com/scl/fi/p2tepmlfa6amhahh698ug/Apresenta-o-fluxo-antigo-x-novo-com-setas-3-em-1.png?rlkey=g3p0cj8bmfr624nug77jqi6s3&st=bxvw69nx&raw=1"
+              src="https://www.dropbox.com/scl/fi/marmrby48ilkbzv5d4xoc/Apresenta-o-fluxo-antigo-x-novo-com-setas-3-em-1.png?rlkey=o3yfxwmkcozkptt74dcpr541l&st=461bjvqz&raw=1"
               alt="Fluxo Negociação"
               className="mx-auto h-auto w-full"
             />
